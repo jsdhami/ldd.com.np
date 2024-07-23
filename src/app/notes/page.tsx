@@ -2,7 +2,7 @@ import PdfViewer from "@/components/pdfViewer";
 const Page = () => {
   return (
     <>
-      <PdfViewer url={"https://pdfobject.com/pdf/sample.pdf"} />
+      <PdfViewer url={"/Structural, electronic, and optical properties of cubic perovskites BiMO3 – A computational study.pdf"} />
     </>
   );
 };

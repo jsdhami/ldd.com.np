@@ -4,7 +4,7 @@ import React from 'react'
 const footer = () => {
   return (
    <>
- <div className="flex justify-around items-center p-1 bg-gray-800 text-white">
+ <div className="flex justify-around items-center p-1 bg-gray-500 text-white">
       <div className="text-sm font-medium"><Link href="/">© 2024 LDD Notes.</Link> All rights reserved.</div>
       <div className="flex items-center space-x-4">
             <Link href="#" className="hover:text-gray-300">Contact</Link>

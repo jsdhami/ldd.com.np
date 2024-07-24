@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button"
 import Image from "next/image";
+import Link from "next/link";
 import {
   Card,
   CardContent,
@@ -23,16 +24,16 @@ import React from 'react'
 const fileCard = () => {
   return (
     <>
-     <Card className="w-[350px]">
+     <Card className="w-[300px]">
      <CardHeader>
-        <CardTitle>Add Notes/Solution</CardTitle>
-        <CardDescription>Add your new project in one-click.</CardDescription>
+        <CardTitle className="truncate">BSc. Research Article</CardTitle>
+        <CardDescription className="truncate">Structural, electronic, and optical properties of cubic perovskites BiMO3.</CardDescription>
       </CardHeader>
       <CardContent className="justify-center items-center">
       <Image src="/Tri-Chandra Research Group.png" alt="notes" width={500} height={500} />
       </CardContent>
       <CardFooter className="flex justify-between">
-        <Button variant="outline">View</Button>
+        <Button variant="outline"><Link href="/notes">View</Link></Button>
         <Button>Download</Button>
       </CardFooter>
     </Card>

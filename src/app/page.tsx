@@ -11,6 +11,10 @@ export default function Home() {
           <FileCard />
           <FileCard />
           <FileCard />
+          <FileCard />
+          <FileCard />
+          <FileCard />
+          <FileCard />
     </div>
    </>
   );

@@ -6,6 +6,9 @@ export default function Home() {
         <div className=" text-4xl font-bold">
         LDD Notes
         </div>
+        <div className="">
+         
+        </div>
     </div>
   );
 }

@@ -24,7 +24,7 @@ import React from 'react'
 const fileCard = () => {
   return (
     <>
-     <Card className="w-[300px]">
+     <Card className="w-[300px] mt-2 shadow-md transition ease-in-out delay-25 hover:-translate-y-1 hover:scale-105 duration-300">
      <CardHeader>
         <CardTitle className="truncate">BSc. Research Article</CardTitle>
         <CardDescription className="truncate">Structural, electronic, and optical properties of cubic perovskites BiMO3.</CardDescription>
@@ -34,7 +34,7 @@ const fileCard = () => {
       </CardContent>
       <CardFooter className="flex justify-between">
         <Button variant="outline"><Link href="/notes">View</Link></Button>
-        <Button>Download</Button>
+        <Button className="bg-slate-700">Download</Button>
       </CardFooter>
     </Card>
     </>

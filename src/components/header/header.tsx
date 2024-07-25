@@ -13,7 +13,7 @@ const header = () => {
             <Link href="#" className="hover:text-gray-600">Notes</Link>
             <Link href="#" className="hover:text-gray-600">About</Link>
       </div>
-      <div className="flex items-center space-x-4 rounded-full bg-black py-2 px-4 shadow-sm">
+      <div className="flex items-center space-x-4 rounded-full bg-slate-700 py-2 px-4 shadow-sm">
             <Link href="#" className="text-slate-200 hover:text-gray-300">Get Started</Link>
             
       </div>

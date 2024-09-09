@@ -8,7 +8,7 @@ const about = () => {
         Welcome to <strong>LDD Notes</strong>, a software platform developed by the research group at <strong>Tribhuvan University (TU)</strong>. This platform provides free access to a vast collection of research papers, notes, and old exam papers to support students and researchers in their academic endeavors.
       </p>
       <p className="text-lg leading-7 mb-4">
-        Our mission is to provide high-quality educational resources to the public at no cost. Whether you're preparing for exams, working on research, or seeking to expand your knowledge, LDD Notes is here to help.
+        Our mission is to provide high-quality educational resources to the public at no cost. Whether you&apos;re preparing for exams, working on research, or seeking to expand your knowledge, LDD Notes is here to help.
       </p>
       <p className="text-lg leading-7 mb-4">
         This is an open-source project, and we welcome contributions from anyone interested in enhancing the platform. You can help us by contributing to the codebase, adding more papers, or improving the user experience.

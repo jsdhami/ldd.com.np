@@ -1,20 +1,27 @@
-import Link from 'next/link'
-import React from 'react'
+import Link from 'next/link';
+import React from 'react';
 
-const footer = () => {
+const Footer = () => {
   return (
-   <>
- <div className="flex justify-around items-center p-2 bg-slate-200 text-gray-800 ">
-      <div className="text-sm font-medium text-wrap">©2024 <Link className='font-bold' href="/">LDD Notes.</Link> All rights reserved.</div>
-      <div className="hidden text-sm md:flex items-center space-x-4">
-            <div className="">Powered By <Link className='font-bold hover:text-gray-600' href="https://www.sudur.tech/">SudurTech</Link></div>
-      </div>
-      <div className='text-sm font-medium'>
-          <div className="text-sm font-medium text-wrap ">Developed by <Link className='font-bold hover:text-gray-600' href='https://dev.jsdhami.com.np'>Janak S. Dhami</Link> </div>
-      </div>
-</div>     
-   </>
-  )
-}
+    <>
+      <div className="flex flex-col md:flex-row justify-between items-center py-4 px-6 bg-slate-200 dark:bg-gray-800 text-gray-800 dark:text-gray-200">
+        {/* Copyright Information */}
+        <div className="text-center text-sm font-medium">
+          ©2024 <Link className="font-bold hover:text-gray-600 dark:hover:text-gray-400" href="/">LDD Notes</Link>. All rights reserved.
+        </div>
 
-export default footer
+        {/* Powered By */}
+        <div className="text-center text-sm font-medium mt-3 md:mt-0">
+          Powered by <Link className="font-bold hover:text-gray-600 dark:hover:text-gray-400" href="https://www.sudur.tech/">SudurTech</Link>
+        </div>
+
+        {/* Developer Info */}
+        <div className="text-center text-sm font-medium mt-3 md:mt-0">
+          Developed by <Link className="font-bold hover:text-gray-600 dark:hover:text-gray-400" href="https://dev.jsdhami.com.np">Janak S. Dhami</Link>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default Footer;

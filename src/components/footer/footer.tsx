@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 
-const Footer = () => {
+const footer = () => {
   return (
     <>
       <div className="flex flex-col md:flex-row justify-between items-center py-4 px-6 bg-slate-200 dark:bg-gray-800 text-gray-800 dark:text-gray-200">
@@ -24,4 +24,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default footer;
